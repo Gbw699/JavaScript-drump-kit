@@ -1,0 +1,43 @@
+html {
+    background-image: url(background.jpg);
+}
+
+body {
+    margin: 0;
+}
+
+.keys {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.key {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1) ;
+    border-color: #ffc600;
+}
+
+kbd {
+    font-size: xx-large;
+    color: white;
+}
+
+.sound {
+    font-size: medium;
+    color: #ffc600;
+    letter-spacing: 0.2rem;
+}
